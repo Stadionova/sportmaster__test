@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  width: 988px;
+  height: 636px;
+  left: 435px;
+  top: 152px;
+  background-color: rgb(50, 50, 50);
+}
+
+.white {
+  position: absolute;
+  width: 892px;
+  height: 320px;
+  left: 50px;
+  top: 250px;
+  background: rgb(255, 255, 255);
+}
