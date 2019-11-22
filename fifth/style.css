@@ -1,81 +1,86 @@
 .container {
-  position: relative;
-  width: 100px;
-  height: 1744px;
-  background: #ffffff;
-  margin-left: 100px;
-  display: flex;
+    position: relative;
+    width: 2100px;
+    height: 1744px;
+    background: #ffffff;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.left-blocks {
+    display: flex;
+    position: absolute;
 }
 
 .left-arrow {
-  position: relative;
-  width: 33px;
-  height: 103px;
-  margin-bottom: 100px;
-  background-color: rgb(36, 43, 229);
+    position: relative;
+    width: 33px;
+    height: 103px;
+    margin-bottom: 100px;
+    background-color: rgb(36, 43, 229);
 }
 
 .left-arrow img {
-  position: absolute;
-  width: 10px;
-  height: 12px;
-  left: 12px;
-  top: 46px;
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 12px;
+    top: 46px;
 }
 
 .black-block {
-  width: 37px;
-  height: 38px;
-  left: 0px;
-  top: 0px;
-  margin-bottom: 100px;
-  background-color: rgb(24, 35, 83);
+    width: 37px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 100px;
+    background-color: rgb(24, 35, 83);
 }
 
 .arrows {
-  margin-right: 100px;
+    margin-right: 100px;
 }
 
 .right-blocks {
-  position: absolute;
-  width: 500px;
-  display: flex;
-  right: 0;
-  top: 0;
+    position: absolute;
+    width: 500px;
+    display: flex;
+    top: 0;
 }
 
 .blue-block-first {
-  position: absolute;
-  width: 98px;
-  height: 33px;
-  left: 1431px;
-  top: 0px;
-  background-color: rgb(36, 43, 229);
+    position: absolute;
+    width: 98px;
+    height: 33px;
+    left: 1431px;
+    top: 0px;
+    background-color: rgb(36, 43, 229);
 }
 
 .circle {
-  position: absolute;
-  width: 21px;
-  height: 20px;
-  left: 1626px;
-  top: 1px;
-  border: 1px solid gray;
+    position: absolute;
+    width: 21px;
+    height: 20px;
+    left: 1626px;
+    top: 1px;
+    border: 1px solid gray;
 }
 
 .blue-block-second {
-  position: absolute;
-  width: 105px;
-  height: 38px;
-  left: 1744px;
-  top: 0px;
-  background-color: rgb(36, 43, 229);
+    position: absolute;
+    width: 105px;
+    height: 38px;
+    left: 1744px;
+    top: 0px;
+    background-color: rgb(36, 43, 229);
 }
 
 .dark-blue {
-  position: absolute;
-  width: 126px;
-  height: 128px;
-  left: 1946px;
-  top: 0px;
-  background-color: rgb(24, 35, 83);
+    position: absolute;
+    width: 126px;
+    height: 128px;
+    left: 1946px;
+    top: 0px;
+    background-color: rgb(24, 35, 83);
 }
