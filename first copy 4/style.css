@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 2072px;
+  width: 100px;
   height: 1744px;
   background: #ffffff;
   margin-left: 100px;
@@ -34,4 +34,48 @@
 
 .arrows {
   margin-right: 100px;
+}
+
+.right-blocks {
+  position: absolute;
+  width: 500px;
+  display: flex;
+  right: 0;
+  top: 0;
+}
+
+.blue-block-first {
+  position: absolute;
+  width: 98px;
+  height: 33px;
+  left: 1431px;
+  top: 0px;
+  background-color: rgb(36, 43, 229);
+}
+
+.circle {
+  position: absolute;
+  width: 21px;
+  height: 20px;
+  left: 1626px;
+  top: 1px;
+  border: 1px solid gray;
+}
+
+.blue-block-second {
+  position: absolute;
+  width: 105px;
+  height: 38px;
+  left: 1744px;
+  top: 0px;
+  background-color: rgb(36, 43, 229);
+}
+
+.dark-blue {
+  position: absolute;
+  width: 126px;
+  height: 128px;
+  left: 1946px;
+  top: 0px;
+  background-color: rgb(24, 35, 83);
 }
