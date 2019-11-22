@@ -25,4 +25,14 @@
   background-color: rgb(61, 61, 62);
 }
 
+.white-block {
+  position: absolute;
+  width: 348px;
+  height: 414px;
+  left: 766px;
+  top: 239px;
+  background-color: rgb(255, 255, 255);
+}
+
+
 
