@@ -25,3 +25,35 @@
   background-color: rgb(36, 43, 229);
 }
 
+.white {
+  position: absolute;
+  width: 208px;
+  height: 101px;
+  left: 50px;
+  top: 24px;
+  background-color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.98;
+  box-shadow: 0px 2px 40px rgba(24, 35, 83, 0.15);
+}
+
+.first .circle {
+  position: absolute;
+  width: 92px;
+  height: 87px;
+  left: 27px;
+  top: 31px;
+  background-color: #ffffff;
+}
+
+.second .circle {
+  position: absolute;
+  width: 127px;
+  height: 106px;
+  left: 27px;
+  top: 30px;
+  background-color: #ffffff;
+}
+
+
+
