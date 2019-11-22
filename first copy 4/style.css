@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  width: 2072px;
+  height: 1744px;
+  background: #ffffff;
+  margin-left: 100px;
+  display: flex;
+}
+
+.left-arrow {
+  position: relative;
+  width: 33px;
+  height: 103px;
+  margin-bottom: 100px;
+  background-color: rgb(36, 43, 229);
+}
+
+.left-arrow img {
+  position: absolute;
+  width: 10px;
+  height: 12px;
+  left: 12px;
+  top: 46px;
+}
+
+.black-block {
+  width: 37px;
+  height: 38px;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 100px;
+  background-color: rgb(24, 35, 83);
+}
+
+.arrows {
+  margin-right: 100px;
+}
