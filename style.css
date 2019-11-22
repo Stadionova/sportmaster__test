@@ -7,3 +7,22 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: rgb(50, 50, 50);
 }
+
+.container img {
+  position: absolute;
+  width: 14px;
+  height: 17px;
+  left: 50px;
+  top: 48px;
+}
+
+.brands {
+  position: absolute;
+  width: 1044px;
+  height: 103px;
+  left: 50px;
+  top: 370px;
+  background-color: rgb(61, 61, 62);
+}
+
+
