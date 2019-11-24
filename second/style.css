@@ -57,3 +57,14 @@
     top: 30px;
     background-color: #ffffff;
 }
+
+.dark-blue {
+    position: absolute;
+    width: 372px;
+    height: 316px;
+    left: 100px;
+    top: 140px;
+    background: #0006A3;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
