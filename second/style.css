@@ -5,6 +5,7 @@
     margin: 0 auto;
     top: 100px;
     background-color: rgb(24, 35, 83);
+    display: flex;
 }
 
 .first {
@@ -67,4 +68,27 @@
     background: #0006A3;
     mix-blend-mode: normal;
     opacity: 0.4;
+}
+
+@media(max-width:500px) {
+    .container {
+        display: block;
+        width: 400px;
+        height: 1100px;
+        margin-bottom: 50px;
+        top: 50px;
+        margin-left: 50px;
+    }
+    .first {
+        width: 360px;
+        left: 20px;
+    }
+    .second {
+        left: 20px;
+        top: 650px;
+        width: 360px;
+    }
+    .dark-blue {
+        width: 372px;
+    }
 }
