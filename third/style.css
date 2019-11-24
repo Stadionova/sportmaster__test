@@ -4,7 +4,7 @@
     width: 1000px;
     height: 397px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .left-arrow {
@@ -15,7 +15,9 @@
     background-color: rgb(36, 43, 229);
 }
 
-.white-block {
+.white-block-first,
+.white-block-second,
+.white-block-third {
     width: 300px;
     position: relative;
     height: 340px;
@@ -26,7 +28,7 @@
     border: 1px solid #6a7987;
     box-sizing: border-box;
     margin-right: 19px;
-    margin-left: 20px;
+    display: block;
 }
 
 .left-arrow img {
@@ -41,7 +43,7 @@
     position: absolute;
     width: 33px;
     height: 103px;
-    left: 1070px;
+    left: 1010px;
     top: 150px;
     background-color: rgb(36, 43, 229);
 }
@@ -61,4 +63,23 @@
     left: 100px;
     top: 260px;
     background-color: rgb(36, 43, 229);
+}
+
+@media(max-width:500px) {
+    .container {
+        margin-left: 40px;
+    }
+    .white-block-second,
+    .white-block-third {
+        display: none;
+    }
+    .white-block-first,
+    .white-block-second,
+    .white-block-third {
+        margin-left: 0px;
+    }
+    .right-arrow {
+        position: relative;
+        left: 50px;
+    }
 }
