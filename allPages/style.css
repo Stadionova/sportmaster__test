@@ -268,3 +268,128 @@
         opacity: 0;
     }
 }
+
+
+/* fourth page */
+
+.container-fourth {
+    position: relative;
+    display: flex;
+    width: 1000px;
+    height: 397px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.left-arrow {
+    position: absolute;
+    width: 33px;
+    height: 103px;
+    top: 150px;
+    background-color: rgb(36, 43, 229);
+}
+
+.white-block-first,
+.white-block-second,
+.white-block-third {
+    width: 300px;
+    position: relative;
+    height: 340px;
+    left: 52px;
+    top: 56px;
+    background: rgba(0, 0, 0, 0.0001);
+    mix-blend-mode: normal;
+    border: 1px solid #6a7987;
+    box-sizing: border-box;
+    margin-right: 19px;
+    display: block;
+}
+
+.left-arrow img {
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 12px;
+    top: 46px;
+}
+
+.right-arrow {
+    position: absolute;
+    width: 33px;
+    height: 103px;
+    left: 1010px;
+    top: 150px;
+    background-color: rgb(36, 43, 229);
+}
+
+.right-arrow img {
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 12px;
+    top: 46px;
+}
+
+.blue-block {
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    left: 100px;
+    top: 260px;
+    background-color: rgb(36, 43, 229);
+}
+
+@media(max-width:500px) {
+    .container-fourth {
+        margin-left: 40px;
+    }
+    .white-block-second,
+    .white-block-third {
+        display: none;
+    }
+    .white-block-first,
+    .white-block-second,
+    .white-block-third {
+        margin-left: 0px;
+    }
+    .right-arrow {
+        position: relative;
+        left: 50px;
+    }
+}
+
+
+/* fifth page */
+
+.container-fifth {
+    position: relative;
+    width: 988px;
+    height: 636px;
+    top: 100px;
+    margin: 0 auto;
+    background-color: rgb(50, 50, 50);
+}
+
+.container-fifth .white {
+    position: absolute;
+    width: 892px;
+    height: 320px;
+    left: 50px;
+    top: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-fifth .brand {
+    position: relative;
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container-fifth .items {
+    width: 169px;
+    height: 79px;
+    margin-top: 120px;
+    margin-right: 10px;
+    background-color: rgb(60, 60, 60);
+}
