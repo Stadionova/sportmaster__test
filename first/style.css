@@ -24,7 +24,7 @@
 
 .brands {
     position: absolute;
-    width: 1044px;
+    width: 900px;
     height: 103px;
     left: 50px;
     top: 370px;
@@ -49,4 +49,22 @@
     left: 766px;
     top: 239px;
     background-color: rgb(255, 255, 255);
+}
+
+.vertical-line-first {
+    position: absolute;
+    width: 4px;
+    height: 103px;
+    left: 45px;
+    top: 370px;
+    background: #242BE5;
+}
+
+.vertical-line-second {
+    position: absolute;
+    width: 4px;
+    height: 103px;
+    left: 150px;
+    top: 130px;
+    background: #242BE5;
 }
