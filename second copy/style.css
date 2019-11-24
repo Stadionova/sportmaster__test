@@ -18,7 +18,7 @@
     margin-left: 79px;
 }
 
-.goods img {
+.blue {
     width: 37px;
     height: 38px;
     left: 41px;
@@ -34,4 +34,12 @@
     mix-blend-mode: normal;
     opacity: 0.1;
     border: 1px solid #182353;
+}
+
+.circle {
+    position: relative;
+    width: 20px;
+    height: 21px;
+    left: 10px;
+    top: 80px;
 }
