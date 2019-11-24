@@ -135,7 +135,7 @@
 
 .horizontal-line {
     display: none;
-    width: 305px;
+    width: 400px;
     bottom: 10px;
     background: rgba(0, 0, 0, 0.0001);
     mix-blend-mode: normal;
@@ -147,6 +147,7 @@
 @media(max-width:500px) {
     .container-second {
         margin-top: 50px;
+        margin-left: 40px;
     }
     .goods {
         display: block;
@@ -253,6 +254,7 @@
         margin-bottom: 50px;
         top: 350px;
         margin: 0;
+        margin-left: 40px;
     }
     .first {
         width: 360px;
@@ -276,7 +278,6 @@
     position: relative;
     display: flex;
     width: 1000px;
-    height: 397px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -342,6 +343,7 @@
 @media(max-width:500px) {
     .container-fourth {
         margin-left: 40px;
+        margin-top: 350px;
     }
     .white-block-second,
     .white-block-third {
