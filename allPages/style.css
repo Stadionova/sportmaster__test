@@ -1,5 +1,5 @@
 .container {
-    width: 1000px;
+    width: 1040px;
     margin: 0 auto;
 }
 
@@ -8,14 +8,14 @@
 
 .container-first {
     position: relative;
-    width: 992px;
+    width: 1040px;
     height: 655px;
-    top: 100px;
+    top: 50px;
     margin: 0 auto;
 }
 
-.black-block {
-    width: 992px;
+.blackBlock {
+    width: 1040px;
     height: 552px;
     background-color: rgb(50, 50, 50);
 }
@@ -87,19 +87,13 @@
 
 .container-second {
     position: relative;
-    width: 1500px;
+    width: 1040px;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .goods {
-    position: absolute;
-    margin: 0 auto;
     display: flex;
-    width: 4px;
-    height: 141px;
-    background: rgba(0, 0, 0, 0.0001);
 }
 
 .icon {
@@ -115,7 +109,6 @@
 
 .line {
     display: block;
-    width: 4px;
     height: 141px;
     left: 157px;
     top: 0px;
@@ -175,13 +168,12 @@
 
 .container-third {
     position: relative;
-    width: 988px;
+    width: 1040px;
     height: 661px;
     margin: 0 auto;
     top: 50px;
     background-color: rgb(24, 35, 83);
     display: flex;
-    margin-top: 200px;
 }
 
 .first {
@@ -252,7 +244,6 @@
         width: 400px;
         height: 1100px;
         margin-bottom: 50px;
-        top: 350px;
         margin: 0;
         margin-left: 40px;
     }
@@ -277,7 +268,7 @@
 .container-fourth {
     position: relative;
     display: flex;
-    width: 1000px;
+    width: 1040px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -291,8 +282,7 @@
 }
 
 .white-block-first,
-.white-block-second,
-.white-block-third {
+.white-block-second {
     width: 300px;
     position: relative;
     height: 340px;
@@ -303,6 +293,19 @@
     border: 1px solid #6a7987;
     box-sizing: border-box;
     margin-right: 19px;
+    display: block;
+}
+
+.white-block-third {
+    width: 300px;
+    position: relative;
+    height: 340px;
+    left: 52px;
+    top: 56px;
+    background: rgba(0, 0, 0, 0.0001);
+    mix-blend-mode: normal;
+    border: 1px solid #6a7987;
+    box-sizing: border-box;
     display: block;
 }
 
@@ -318,8 +321,8 @@
     position: absolute;
     width: 33px;
     height: 103px;
-    left: 1010px;
     top: 150px;
+    right: 0;
     background-color: rgb(36, 43, 229);
 }
 
@@ -343,7 +346,6 @@
 @media(max-width:500px) {
     .container-fourth {
         margin-left: 40px;
-        margin-top: 350px;
     }
     .white-block-second,
     .white-block-third {
@@ -365,11 +367,12 @@
 
 .container-fifth {
     position: relative;
-    width: 988px;
+    width: 1040px;
     height: 636px;
     top: 100px;
     margin: 0 auto;
     background-color: rgb(50, 50, 50);
+    margin-bottom: 50px;
 }
 
 .container-fifth .white {

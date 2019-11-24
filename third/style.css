@@ -1,10 +1,8 @@
 .container {
     position: relative;
     display: flex;
-    width: 1000px;
-    height: 397px;
+    width: 1050px;
     margin: 0 auto;
-    margin-top: 50px;
 }
 
 .left-arrow {
@@ -43,8 +41,8 @@
     position: absolute;
     width: 33px;
     height: 103px;
-    left: 1010px;
     top: 150px;
+    right: 0;
     background-color: rgb(36, 43, 229);
 }
 
