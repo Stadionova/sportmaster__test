@@ -89,6 +89,7 @@
     position: relative;
     width: 1040px;
     margin: 0 auto;
+    left: 50px;
 }
 
 .goods {
@@ -139,7 +140,6 @@
 @media(max-width:500px) {
     .container-second {
         margin-top: 50px;
-        margin-left: 40px;
     }
     .goods {
         display: block;
@@ -150,7 +150,7 @@
         margin-left: 10px;
     }
     .circle {
-        left: 250px;
+        left: 330px;
         top: 5px;
     }
     .line {
@@ -159,6 +159,9 @@
     .horizontal-line {
         display: block;
         margin-bottom: 20px;
+    }
+    .container-second {
+        left: 40px;
     }
 }
 
@@ -173,6 +176,11 @@
     top: 50px;
     background-color: rgb(24, 35, 83);
     display: flex;
+}
+
+.container-inside {
+    margin-left: 20px;
+    position: absolute;
 }
 
 .first {
@@ -247,13 +255,13 @@
         margin-left: 40px;
     }
     .first {
-        width: 360px;
+        width: 320px;
         left: 20px;
     }
     .second {
         left: 20px;
         top: 650px;
-        width: 360px;
+        width: 320px;
     }
     .dark-blue {
         width: 372px;
@@ -376,7 +384,7 @@
 
 .container-fifth .white {
     position: absolute;
-    width: 892px;
+    width: 940px;
     height: 320px;
     left: 50px;
     top: 250px;
@@ -386,8 +394,7 @@
 .container-fifth .brand {
     position: relative;
     display: flex;
-    width: 900px;
-    margin: 0 auto;
+    left: 70px;
 }
 
 .container-fifth .items {
