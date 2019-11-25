@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    width: 2100px;
+    width: 1600px;
     height: 1744px;
     background: #ffffff;
     display: flex;
@@ -42,18 +42,12 @@
     margin-right: 100px;
 }
 
-.right-blocks {
-    position: absolute;
-    width: 500px;
-    display: flex;
-    top: 0;
-}
-
 .blue-block-first {
     position: absolute;
     width: 98px;
     height: 33px;
-    left: 1431px;
+    left: 900px;
+    right: 0;
     top: 0px;
     background-color: rgb(36, 43, 229);
 }
@@ -62,7 +56,8 @@
     position: absolute;
     width: 21px;
     height: 20px;
-    left: 1626px;
+    left: 1100px;
+    right: 0;
     top: 1px;
     border: 1px solid gray;
 }
@@ -71,7 +66,7 @@
     position: absolute;
     width: 105px;
     height: 38px;
-    left: 1744px;
+    left: 1200px;
     top: 0px;
     background-color: rgb(36, 43, 229);
 }
@@ -80,7 +75,7 @@
     position: absolute;
     width: 126px;
     height: 128px;
-    left: 1946px;
+    left: 1400px;
     top: 0px;
     background-color: rgb(24, 35, 83);
 }
